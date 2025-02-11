@@ -92,5 +92,5 @@ export const EXPERIENCES = [
 
 export const CONTACT = {
   address: "Arizona State University, Tempe, AZ", 
-  email: "rohitsburner@gmail.com",
+  email: "rdanti1@asu.edu",
 };
