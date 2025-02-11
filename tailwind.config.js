@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        selectionBg: 'rgba(120,119,198,0.3)', // Add your transparent background color here
-        selectionText: 'rgba(255,255,255,1)', // Text color during selection
+        selectionBg: 'rgba(120,119,198,0.3)', 
+        selectionText: 'rgba(255,255,255,1)', 
       },
     },
   },
@@ -16,8 +16,8 @@ export default {
     function ({ addUtilities }) {
       addUtilities({
         '::selection': {
-          backgroundColor: 'rgba(153, 57, 226, 0.41)', // Transparent background
-          color: 'rgba(255,255,255,1)', // Text color
+          backgroundColor: 'rgba(153, 57, 226, 0.41)', 
+          color: 'rgba(255,255,255,1)',
         },
       });
     },

@@ -9,7 +9,7 @@ const Experience = () => {
              initial={{opacity: 0, y: -100}} 
              transition={{duration: 0.5}}
             className="my-20 text-center text-4xl">Experience</motion.h2>
-            {/* <div className="mx-auto max-w-4xl"> */}
+            
             {EXPERIENCES.map((experience, index) => (
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                     <motion.div 
@@ -23,7 +23,6 @@ const Experience = () => {
                                 src={experience.logo}
                                 alt={`${experience.company} logo`}
                                 className="mt-20  object-contain hidden lg:block"
-                                // className="w-full h-auto sm:w-1/5 md:w-1/4 lg:w-1/3 xl:w-1/2 object-cover"
                             />
                         )}
                     </motion.div>
@@ -81,7 +80,6 @@ const Experience = () => {
                 </div>
             ))}
         </div>
-        // </div>
     );
 };
 

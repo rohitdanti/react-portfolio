@@ -1,5 +1,5 @@
 import * as motion from "motion/react-client"
-import aboutImg from "../assets/about 2.jpg"
+import aboutImg from "../assets/about.jpg"
 import { ABOUT_TEXT } from "../constants";
 const About = () => {
     return (
