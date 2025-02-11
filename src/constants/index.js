@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import commvault_logo from "../assets/commvault.png"
 import accenture_logo from "../assets/accenture.png"
 import ASU from "../assets/ASU.png" 
-import elephant from "../assets/Elephant Tree.png" 
+import elephant from "../assets/ElephantTree.png" 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
