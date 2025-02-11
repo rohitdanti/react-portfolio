@@ -15,7 +15,7 @@ const Contact = () => {
                  initial={{ opacity: 0, x: 100}}
                  transition= {{duration: 0.5 }}
                 className="my-4">{CONTACT.address}</motion.p>
-                <a href="#" className="border-b"> {CONTACT.email}</a>
+                <a href="mailto:rdanti1@asu.edu" className="border-b"> {CONTACT.email}</a>
             </div>
         </div>
         

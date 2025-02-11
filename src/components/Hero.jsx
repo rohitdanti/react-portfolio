@@ -16,7 +16,7 @@ const container = (delay) => ({
 const DownloadButton = () => {
     return (
     <div style={styles.container}>
-      <a href="/resume.pdf" download="Rohith Danti - Resume.pdf">
+      <a href="/RohithDanti_Resume.pdf" download="Rohith Danti - Resume.pdf">
         <button style={styles.button}>
           <FaDownload style={styles.icon} />
           <span style={styles.text}>Download Resume</span>
