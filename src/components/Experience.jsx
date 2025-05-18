@@ -31,12 +31,9 @@ const Experience = () => {
                         initial={{ opacity: 0, x: 100 }}
                         transition={{ duration: 1 }}
                         className="w-full max-w-xl lg:w-3/4">
-                        {/* Company Name */}
                         <p className="font-bold text-lg text-purple-100">{experience.company}</p>
-                        {/* Role */}
                         <p className="italic text-neußtral-300 mb-4">{experience.role}</p>
 
-                        {/* If experience has multiple projects, display them as separate items with bullet points */}
                         {experience.projects ? (
                             <div className="mb-4 text-neutral-400">
                                 {experience.projects.map((project, projectIndex) => (
@@ -51,7 +48,6 @@ const Experience = () => {
                                 ))}
                             </div>
                         ) : experience.project ? (
-                            // If experience has a single project with multiple bullet points
                             <div className="mb-4 text-neutral-400">
                                 <p className="font-semibold">{experience.project.title}</p>
                                 <ul className="list-disc ml-5">
@@ -61,17 +57,14 @@ const Experience = () => {
                                 </ul>
                             </div>
                         ) : (
-                            // Fallback for experiences that only have a single description
                             <p className="mb-4 text-neutral-400">{experience.description}</p>
                         )}
 
-                        {/* Technologies Used */}
                         <div className="mt-4">
                             {experience.technologies.map((tech, techIndex) => (
                                 <span
                                     key={techIndex}
                                     className="mr-2 mt-2 inline-block rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-[#5f6fcf]">
-                                        {/*  */}
                                     {tech}
                                 </span>
                             ))}

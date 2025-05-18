@@ -84,7 +84,142 @@ export const EXPERIENCES = [
   },
 ];
 
+export const CERTIFICATIONS = [
+  
+  {
+    title: "Salesforce Certified Administrator",
+    issuer: "Salesforce",
+    date: "July 19, 2021"
+  },
+  {
+    title: "Salesforce Certified Advanced Admin",
+    issuer: "Salesforce",
+    date: "November 22, 2021"
+  },
+  {
+    title: "Salesforce Certified Platform App Builder",
+    issuer: "Salesforce",
+    date: "September 22, 2021"
+  },
+  {
+    title: "Salesforce Certified Platform Developer I",
+    issuer: "Salesforce",
+    date: "January 6, 2022"
+  },
+  {
+  title: "Salesforce Certified Platform Developer II",
+  issuer: "Salesforce",
+  date: "May 16, 2022",
+  },
+  {
+  title: "Salesforce Certified JavaScript Developer I",
+  issuer: "Salesforce",
+  date: "November 9, 2022",
+  },
+  {
+    title: "Copado Certified Fundamentals I",
+    issuer: "Copado",
+    date: "December 1, 2022"
+  },
+  {
+  title: "Copado Certified Fundamentals II",
+  issuer: "Copado",
+  date: "May 24, 2023",
+  },
+  {
+    title: "Advanced C++ Training",
+    issuer: "IIT Bombay - Spoken Tutorial",
+    date: "April 5, 2018"
+  },
+  {
+    title: "C and Data Structures Training",
+    issuer: "Intellipaat",
+    date: "November 21, 2017"
+  }
+  
+  
+];
+export const PROJECTS = [
+  {
+    title: "Calendar Management App",
+    description:
+      "Designed and developed a feature-rich desktop calendar application in Java following MVC architecture principles. The application allows users to create, update, delete, and search for events across monthly and weekly views. Custom-built controllers manage event dispatching, and the application supports notification reminders and dynamic view updates. Packaged as a standalone executable JAR, it features a user-friendly Swing interface and robust testing via JUnit to ensure high code reliability and maintainability.",
+    technologies: ["Java", "MVC", "Swing", "JUnit", "Executable JAR"],
+  },
+  {
+    title: "AWS Cloud Facial Recognition App",
+    description:
+      "Built a high-performance, auto-scaling facial recognition pipeline on AWS capable of analyzing thousands of video clips in under three minutes. Leveraged AWS Lambda for serverless processing, EC2 for compute elasticity, S3 for storage, and SQS for task decoupling. Employed a deep learning ResNet model for accurate face detection, integrated with a Lambda-triggered video extraction system. Implemented parallel processing via S3 event-driven triggers and used CloudWatch for performance monitoring. This solution demonstrates enterprise-grade cloud architecture and real-time computer vision capabilities.",
+     github: "https://github.com/rohitdanti/Cloud-Computing",
+      technologies: ["AWS Lambda", "S3", "EC2", "SQS", "ResNet", "CloudWatch", "Python"],
+  },
+  {
+    title: "Richter's Predictor - Earthquake Damage Prediction",
+    description:
+      "Developed a predictive analytics solution to classify building damage from the 2015 Nepal Earthquake using machine learning. Processed a dataset with over 347,000 samples, engineered critical features, and normalized imbalanced labels. Evaluated and optimized models including Random Forest, XGBoost, KNN, and shallow Neural Networks. Achieved significant accuracy gains through ensembling, hyperparameter tuning, and 10-fold cross-validation. This project reflects practical use of ML for disaster response planning and risk management.",
+    technologies: ["Python", "XGBoost", "Random Forest", "KNN", "Neural Networks", "Scikit-learn", "Pandas"],
+     github: "https://github.com/rohitdanti/Richters-Predictor"
+  },
+  {
+    title: "Arizona Nightlife Analysis using Yelp Dataset",
+    description:
+      "Architected a big data analytics pipeline to analyze nightlife businesses in Arizona using publicly available Yelp data. Leveraged Hadoop and PySpark to transform and clean terabyte-scale JSON records into Parquet files for optimized distributed querying. Parsed over 37,000 user profiles and 1 million+ reviews to extract behavioral patterns, customer preferences, and business engagement trends. Derived actionable insights using Spark SQL, enabling location-based strategy formulation for business owners and urban planners.",
+    technologies: ["PySpark", "Hadoop", "Spark", "Parquet", "Yelp API", "Spark SQL"],
+     github: "https://github.com/rohitdanti/Data-Processing-at-Scale-Arizona-Nightlife-Analysis",
+  },
+  {
+    title: "AI-Driven Legal Risk Predictor",
+    description:
+      "Implemented a machine learning model to assess litigation risk by predicting the outcome category of legal cases based on historical court data. Cleaned and vectorized unstructured legal texts using TF-IDF and named entity recognition (NER). Built classification models with Logistic Regression and Random Forest, achieving over 85% accuracy on real-world datasets. Applied cross-validation, confusion matrix analysis, and feature importance plots to validate the system. This project highlights the application of AI in justice systems for legal forecasting and risk analysis.",
+    technologies: ["Python", "NLP", "TF-IDF", "NER", "Scikit-learn", "Matplotlib", "Pandas"],
+  },
+  {
+    title: "Performance Evaluation of HPC Applications in Containers vs. VMs",
+    description:
+      "Conducted an in-depth performance evaluation of Apache Cassandra in containerized (Docker) and virtualized (VMware) environments, publishing the results in Springer. Created Kubernetes clusters using Minikube and automated deployment pipelines for Cassandra nodes. Simulated real-world workloads using TLP-Stress and tracked key performance metrics (latency, throughput) with Metric Server. The study revealed critical trade-offs between isolation overhead and scalability in container-based HPC workflows and serves as a reference for cloud-native architecture decisions.",
+    technologies: ["Docker", "VMware", "Kubernetes", "Apache Cassandra", "TLP-Stress", "Minikube", "Metric Server"],
+    link: "https://www.springerprofessional.de/en/performance-evaluation-of-hpc-application-in-containerized-and-v/19917126",
+  },
+  {
+  title: "Personal Portfolio Website",
+  description:
+    "Designed and developed a fully responsive personal portfolio website using React and Tailwind CSS to showcase academic background, industry experience, certifications, and projects. Implemented modular components including dynamic sections for hero content, experiences, projects, and contact. Integrated Framer Motion for interactive animations and conditional rendering for responsive design. Centralized data via a constants file for easy updates, and optimized the layout to ensure visual cohesion across dark-mode themes. Deployed via modern CI/CD workflows and structured for scalability.",
+  technologies: ["React", "Tailwind CSS", "Framer Motion", "JavaScript", "Vite"],
+   github: "https://github.com/rohitdanti/react-portfolio",
+}
+];  
+
+export const RECOMMENDATIONS = [
+  {
+    name: "Karunakar Bojjireddy",
+    role: "Director, Cloud Operations, Security and Governance, Commvault",
+    text: "Rohith worked with me on the Commvault Cloud Operations team, contributing to a project in its early concept stage with dynamic requirements. He quickly adapted to new technologies and consistently delivered high-quality solutions. His expertise in Python, Azure, and modern data engineering practices, combined with his exceptional problem-solving skills, made him a valuable contributor. I highly recommend Rohit for his technical acumen and collaborative mindset.",
+    linkedin: "https://www.linkedin.com/in/karunakar-bojjireddy-03b77a1/",
+  },
+  {
+  name: "Richie Kovac",
+  role: "Management Consulting Manager, Accenture",
+  text: "Rohith played a pivotal role in delivering complex Salesforce solutions for a global media client. He consistently went beyond requirements—designing, building, and rigorously testing features like a custom 'Mass Upload' module used to process billions in advertising revenue. Rohith's leadership during cross-functional scrums and his ability to coach junior teammates stood out. He brings a rare blend of technical depth, delivery discipline, and collaborative spirit that any team would value.",
+  linkedin: "https://www.linkedin.com/in/richie-kovac-94935888/",
+},
+{
+  name: "Ketan Kulkarni",
+  role: "Development Team Lead, Accenture",
+  text: "Rohith is a fast learner with a strong ability to adapt to new technologies. During our time working together on Salesforce Implementation for Disney, he delivered complex solutions using Aura Components and Apex. His continuous pursuit of certifications reflects his dedication to growth. I appreciated his professionalism and contribution to challenging development requirements. Wishing him continued success in all his endeavors.",
+  linkedin: "https://www.linkedin.com/in/ketan-kulkarni-113251209/",
+},
+{
+  name: "Sejal Sharma",
+  role: "Software Developer, Salesforce",
+  text: "Rohith is a dependable team player who consistently took on critical responsibilities and actively supported team members in achieving shared goals. His role as a Full Stack Senior Analyst showcased both his technical proficiency and his leadership in problem-solving. I thoroughly enjoyed collaborating with Rohit and highly regard his ability to deliver under pressure.",
+  linkedin: "https://www.linkedin.com/in/sejal-sharma-89617515b/",
+  },
+];
+
+
 export const CONTACT = {
   address: "Arizona State University, Tempe, AZ", 
   email: "rdanti1@asu.edu",
+  linkedin: "https://www.linkedin.com/in/rohith-danti",
+  github: "https://www.github.com/rohitdanti"
 };

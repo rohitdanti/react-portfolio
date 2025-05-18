@@ -5,6 +5,9 @@ import About from "./components/About.jsx"
 import Technologies from "./components/Technologies.jsx"
 import Experience from "./components/Experience.jsx"
 import Contact from "./components/Contact.jsx"
+import Certifications from './components/Certifications.jsx'
+import Projects from './components/Projects.jsx'
+import Recommendation from './components/Recommendation.jsx'
 import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
@@ -19,6 +22,9 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
+        <Projects />
+        <Certifications />
+        <Recommendation/>
         <Contact />
         <Analytics />
       </div>
