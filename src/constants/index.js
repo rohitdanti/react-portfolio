@@ -150,7 +150,7 @@ export const PROJECTS = [
     title: "AWS Cloud Facial Recognition App",
     description:
       "Built a high-performance, auto-scaling facial recognition pipeline on AWS capable of analyzing thousands of video clips in under three minutes. Leveraged AWS Lambda for serverless processing, EC2 for compute elasticity, S3 for storage, and SQS for task decoupling. Employed a deep learning ResNet model for accurate face detection, integrated with a Lambda-triggered video extraction system. Implemented parallel processing via S3 event-driven triggers and used CloudWatch for performance monitoring. This solution demonstrates enterprise-grade cloud architecture and real-time computer vision capabilities.",
-     github: "https://github.com/rohitdanti/Cloud-Computing",
+     github: "https://github.com/rohitdanti/Cloud-Face-Recognition",
       technologies: ["AWS Lambda", "S3", "EC2", "SQS", "ResNet", "CloudWatch", "Python"],
   },
   {
