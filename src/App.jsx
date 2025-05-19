@@ -9,6 +9,7 @@ import Certifications from './components/Certifications.jsx'
 import Projects from './components/Projects.jsx'
 import Recommendation from './components/Recommendation.jsx'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
