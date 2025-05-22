@@ -214,6 +214,12 @@ export const RECOMMENDATIONS = [
   text: "Rohith is a dependable team player who consistently took on critical responsibilities and actively supported team members in achieving shared goals. His role as a Full Stack Senior Analyst showcased both his technical proficiency and his leadership in problem-solving. I thoroughly enjoyed collaborating with Rohit and highly regard his ability to deliver under pressure.",
   linkedin: "https://www.linkedin.com/in/sejal-sharma-89617515b/",
   },
+  {
+  name: "Michael Moody",
+  role: "Associate Director, Research Success",
+  text: "I had the pleasure of working with and supervising Rohith Danti as a student worker, where he supported the Research Success Hub via data and website management. Rohith consistently demonstrated strong technical skills, the ability to take instruction and execute the vision of the Research Success Hub. Beyond his technical duties, Rohith played an integral role in building logic models that paired research faculty with students interested in research opportunities. He was also responsible for maintaining a college-wide resources repository and took initiative in developing a Tableau dashboard to track executive-level KPI metrics—contributions that had a significant impact on our operational efficiency. Most importantly, Rohith was expedient, responsive, respectful, courteous, and flexible. He quickly became a trusted and dependable member of the team, and I highly recommend him for any role that demands both technical acumen and professional integrity.",
+  linkedin: "https://www.linkedin.com/in/michael-moody-144bab99/",
+  },
 ];
 
 
